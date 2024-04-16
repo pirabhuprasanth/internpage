@@ -14,8 +14,8 @@ body{
 
 #interns{
     position: absolute;
-    width: 80%;
-    top: 37px;
+    width: 50%;
+    top: 171px;
     right: 0px;
 }
 
@@ -30,7 +30,7 @@ body{
 .navbar a {
     position: relative;
     top: 40px;
-    margin-right: 1em;
+    padding: 12px;
     color: black;
     text-decoration: none;
     font-size: 17px;
@@ -40,7 +40,7 @@ body{
 
 .navbar img {
     position: relative;
-    top: -12px;
+    top: 28px;
     float: right;
     font-size: 10px;
     width: 70px;
@@ -63,3 +63,7 @@ body{
     top: 10px;
 }
 /* NAVBAR CSS END */
+
+.content {
+    
+}
