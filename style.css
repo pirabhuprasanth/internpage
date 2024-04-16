@@ -1,1 +1,52 @@
 
+.navbar a {
+  float: right;
+  padding: 12px;
+  color: rgb(15, 14, 14);
+  text-decoration: none;
+  font-size: 17px;
+  text-align: right-corner;
+}
+
+.navbar a:hover {
+  background-color: none; 
+} 
+
+.navbar img {
+  float: right;
+  font-size: 10px;
+}
+   
+
+.main-div img1 {
+  text-align: top;
+}
+.main-div img2 {
+  text-align: top;
+}
+
+#form {  
+  position: absolute;
+  left: 10px;
+  top:150px;
+}
+ 
+
+.pos_right {
+  float: right;
+  font-size: 500px;
+  position: relative;
+  text-align: right;
+}
+
+.pos_right {
+   width: 900px;
+   height: 550px;
+   position: relative;
+   top: -1px;
+}
+
+.h1 {
+  font-weight: bold;
+  color: black;
+}
