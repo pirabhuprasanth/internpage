@@ -64,6 +64,33 @@ body{
 }
 /* NAVBAR CSS END */
 
-.content {
-    
+.content h1 {
+    font-size: 40px;
+    position: absolute;
+    bottom: 180px;
+    left: 50px;
+    font-weight: 500;
+}
+
+.content h1 a {
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+#apply_button {
+    position: absolute;
+    width: 15%;
+    bottom: 130px;
+    left: 40px;
+}
+
+.social-medias {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+
+.social-medias a {
+    margin-right: 10px;
+    color: black;
 }
