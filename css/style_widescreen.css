@@ -37,34 +37,30 @@ body{
     font-weight: bold;
 }
 
-
-.navbar img {
-    position: relative;
-    top: 28px;
-    float: right;
-    font-size: 10px;
-    width: 70px;
-}
-
-.navbar-l {
-    position: absolute;
-}
-
 #logo {
-    position: relative;
-    width: 8%;
-    left: 20px;
+    position: absolute;
+    width: 80px;
+    top: 25px;
+    left: 30px;
 }
 
 #logoname {
-    position: relative;
-    left: 15px;
-    width: 30%;
+    position: absolute;
+    left: 120px;
+    width: 20%;
     top: 10px;
 }
 
+.sidenav {
+    display: none;
+}
+
+#sidebars {
+    display: none;
+}
 
 /* ANIMATE */
+
 
 
 /* NAVBAR CSS END */

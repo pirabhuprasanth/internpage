@@ -3,51 +3,28 @@
 
 *{
     font-family:"Poppins", sans-serif;
+    max-width: 600px;
 }
 
 body{
     background-image: url(/img/bg.png);
     background-repeat: no-repeat;
     background-size: 90%;
-
+    max-width: 600px;
+    justify-content: center;
 }
 
 #interns{
     position: absolute;
-    width: 50%;
-    top: 171px;
+    width: 60%;
+    bottom: 0in;
     right: 0px;
 }
 
 /* NAVBAR CSS START */
 
 .navbar {
-    position: absolute;
-    float: right;    
-    right:  40px;
-}
-
-.navbar a {
-    position: relative;
-    top: 40px;
-    padding: 12px;
-    color: black;
-    text-decoration: none;
-    font-size: 17px;
-    font-weight: bold;
-}
-
-
-.navbar img {
-    position: relative;
-    top: 28px;
-    float: right;
-    font-size: 10px;
-    width: 70px;
-}
-
-.navbar-l {
-    position: absolute;
+    display: none;
 }
 
 #logo {
@@ -63,39 +40,121 @@ body{
     top: 10px;
 }
 
+#sidebars {
+    position: relative;
+    float: right;
+    right: 15px;
+    top: 25px;
+}
 
-/* ANIMATE */
+
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color: whitesmoke; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
 
 
 /* NAVBAR CSS END */
 
 .content h1 {
-    font-size: 40px;
+    font-size: 25px;
     position: absolute;
-    bottom: 180px;
+    bottom: 250px;
     left: 50px;
     font-weight: 500;
 }
 
 .content h1 a {
     font-weight: bolder;
-    font-size: 60px;
+    font-size: 40px;
 }
 
 #apply_button {
     position: absolute;
-    width: 15%;
-    bottom: 130px;
+    width: 30%;
+    bottom: 180px;
     left: 40px;
 }
 
 .social-medias {
+    display: none;
+}
+
+
+.social-medias1 {
     position: absolute;
     bottom: 10px;
+    margin-right: 1em;
     left: 20px;
 }
 
-.social-medias a {
+.social-medias1 a {
     margin-right: 10px;
     color: black;
+}
+
+
+
+
+
+
+/* MEDIA SETUP */
+
+@media screen and (max-width: 320px) {
+    #logo {
+        position: relative;
+        width: 20%;
+        left: 20px;
+    }
+    
+    #logoname {
+        position: relative;
+        left: 15px;
+        width: 30%;
+        top: 10px;
+    }
 }
