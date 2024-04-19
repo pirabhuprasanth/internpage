@@ -43,15 +43,16 @@ body{
 }
 
 #logo {
-    width: 80px;
-    padding-left: 0 0 0 50px;
+    float: left;
+    width: 6.5%
+    padding-left: 0 0 0 150px;
 }
 
 #logoname {
-    position: absolute;
+    float: left;
     left: 120px;
     width: 20%;
-    top: 10px;
+   
 }
 
 .sidenav {
