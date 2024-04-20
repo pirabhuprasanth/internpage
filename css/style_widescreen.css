@@ -29,6 +29,7 @@
      justify-content: space-between;
  }
 
+<<<<<<< HEAD
  .navbar a {
      color: black;
      margin-right: 1em;
@@ -43,6 +44,20 @@
      left: 25px;
      top: 20px;
  }
+
+#logo {
+    float: left;
+    width: 6.5%
+    padding-left: 0 0 0 150px;
+}
+
+#logoname {
+    float: left;
+    left: 120px;
+    width: 20%;
+   
+}
+>>>>>>> 592ef96c4927f53fef2c730a8efb587f768ee245
 
  #logoname {
      position: absolute;
@@ -130,3 +145,16 @@
 
  /* HOME CSS END */
 
+<<<<<<< HEAD
+=======
+/* @media only screen and (min-device-height: 20000px) {
+    #interns{
+        position: absolute;
+        width: 60%;
+        
+        right: 0px;
+        bottom: 0;
+        z-index: -1;
+    }
+} */
+>>>>>>> 592ef96c4927f53fef2c730a8efb587f768ee245
