@@ -12,6 +12,8 @@ body{
     max-width: 600px;
 }
 
+/* NAVBAR & FOOTER CSS */
+
 .nav_position {
     display: none;
 }
@@ -72,9 +74,6 @@ body{
     .sidenav a {font-size: 18px;}
 }
 
-
-/* NAVBAR CSS END */
-
 .social-medias {
     display: none;
 }
@@ -112,7 +111,7 @@ body{
 }
 
 
-
+/* NAVBAR & FOOTER CSS END */
 
 
 /* MEDIA SETUP */
@@ -141,6 +140,8 @@ body{
             top: 55px;
         }
 
+        /* HOME CSS */
+
         #interns{
             position: absolute;
             width: 60%;
@@ -168,46 +169,119 @@ body{
             left: 30px;
         }
 
-    
+        /* HOME CSS END */
+
 }
  
 
-@media screen and (max-device-width: 480px) 
+@media screen and (min-device-width: 540px)  and (max-device-width: 768px)
     and (orientation: portrait) {
+
+        #logo {
+            position: relative;
+            width: 13%;
+            left: 20px;
+            top: 18px;
+        }
+        
+        #logoname {
+            position: relative;
+            left: 15px;
+            width: 40%;
+            top: 20px;
+        }
+
+        #sidebars {
+            position: absolute;
+            float: right;
+            right: 50px;
+            top: 50px;
+        }
+
+        /* HOME CSS */
+
+        #interns{
+            position: absolute;
+            width: 40%;
+            bottom: 0in;
+            right: 0px;
+        }
+
+        .content h1 {
+            font-size: 25px;
+            position: absolute;
+            top: 25%;
+            left: 50px;
+            font-weight: 500;
+        }
+        
+        .content h1 a {
+            font-weight: bolder;
+            font-size: 50px;
+        }
+        
+        #apply_button {
+            position: absolute;
+            width: 50%;
+            top: 60%;
+            left: 30px;
+        }
     
     }
  
-@media screen and (max-device-width: 640px) 
-    and (orientation: landscape) {
-    
-}
- 
 
-@media screen
-    and (max-device-width: 640px) {
-    
-}
- 
-
-@media screen and (min-device-width: 320px) 
+@media screen and (min-device-width: 320px) and (max-device-width: 540px)
     and (-webkit-min-device-pixel-ratio: 2) {
+
+        #logo {
+            position: relative;
+            width: 15%;
+            left: 20px;
+            top: 18px;
+        }
+        
+        #logoname {
+            position: relative;
+            left: 15px;
+            width: 45%;
+            top: 20px;
+        }
+
+        #sidebars {
+            position: absolute;
+            float: right;
+            right: 40px;
+            top: 43px;
+
+        }
+
+        /* HOME CSS */
+
+        #interns{
+            position: absolute;
+            width: 100%;
+            bottom: 0in;
+            right: 0px;
+        }
+
+        .content h1 {
+            font-size: 20px;
+            position: absolute;
+            top: 25%;
+            left: 30px;
+            font-weight: 500;
+        }
+        
+        .content h1 a {
+            font-weight: bolder;
+            font-size: 30px;
+        }
+        
+        #apply_button {
+            position: absolute;
+            width: 50%;
+            top: 50%;
+            left: 20px;
+        }
     
 }
- 
-
-@media (device-height: 568px) 
-    and (device-width: 320px) 
-    and (-webkit-min-device-pixel-ratio: 2) {
-    
-
-    
-}
- 
-
-@media (min-device-height: 667px) 
-    and (min-device-width: 375px) 
-    and (-webkit-min-device-pixel-ratio: 3) {
-    
-
-
-};
