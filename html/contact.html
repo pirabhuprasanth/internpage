@@ -136,6 +136,7 @@
             <a href="https://instagram.com/ps8network"><i class="fa-brands fa-instagram fa-xl"></i></a>
             <a href="https://facebook.com/ps8network"><i class="fa-brands fa-facebook fa-xl"></i></a>
         </div>
+        <p>© 2024 PS8 Network. All rights reserved.</p>
         <div class="devname">Developed by JANANI &times; CHARUMATHY</div>
     </footer>
     <script src="https://kit.fontawesome.com/a425f49bb6.js" crossorigin="anonymous"></script>
@@ -143,22 +144,22 @@
     <script>
         const inputs = document.querySelectorAll(".input");
 
-function focusFunc() {
-  let parent = this.parentNode;
-  parent.classList.add("focus");
-}
+        function focusFunc() {
+            let parent = this.parentNode;
+            parent.classList.add("focus");
+        }
 
-function blurFunc() {
-  let parent = this.parentNode;
-  if (this.value == "") {
-    parent.classList.remove("focus");
-  }
-}
+        function blurFunc() {
+            let parent = this.parentNode;
+            if (this.value == "") {
+                parent.classList.remove("focus");
+            }
+        }
 
-inputs.forEach((input) => {
-  input.addEventListener("focus", focusFunc);
-  input.addEventListener("blur", blurFunc);
-});
+        inputs.forEach((input) => {
+            input.addEventListener("focus", focusFunc);
+            input.addEventListener("blur", blurFunc);
+        });
 
     </script>
 </body>
