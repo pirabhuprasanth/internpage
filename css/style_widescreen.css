@@ -538,11 +538,14 @@
  .cp-container {
    width: 1170px;
    margin: 0px auto;
+   margin-top: 2.5%;
  }
 
  .cp-width-100 {
    width: 100%;
    float: left;
+   margin-left: 0%;
+   text-align: center;
  }
 
  .cp-width-50 {
@@ -658,14 +661,94 @@
  .cp-width-66 {
    width: 66%;
    float: left;
+  
  }
-
- .cp-width-33 {
+ 
+.cp-width-33 {
    width: 33%;
    float: left;
+   
+  }
+ /* .cp-abc-3d{
+  margin-top: 50px;
+ } */
+
+ .cp-skill-section {
+   background-color: #00000008;
+   padding-top: 40px;
+   padding-bottom: 60px;
+ }
+
+ .cp-skill-list {
+   background-color: #fff;
+   width: 23%;
+   float: left;
+   margin-left: 15px;
+   padding-top: 10px;
+   border-radius: 5px;
+   padding-left: 8px;
+   padding-bottom: 10px;
+  }
+
+ .cp-skill-list img {
+   width: 10px;
+   height: 40px;
+   border-radius: 200px;
+
+ }
+
+ .cp-skill-list h1 {
+   font-size: 16px;
+   color: #313538;
+   font-weight: bold;
+   padding-left: 8px;
+   padding-top: 8px;
+ }
+
+ .cp-skill-list p {
+   font-size: 9px;
+   font-weight: 11px;
+
  }
 
  .cp-skill-section {
+   background-color: #00000008;
+   padding-top: 40px;
+   padding-bottom: 60px;
+ }
+
+ .cp-skill-list {
+   background-color: #fff;
+   width: 23%;
+   float: left;
+   margin-left: 15px;
+   padding-top: 10px;
+   border-radius: 5px;
+   padding-left: 8px;
+   padding-bottom: 10px;
+ }
+
+ .cp-skill-list img {
+   width: 80px;
+   height: 60px;
+   border-radius: 200px;
+
+ }
+
+ .cp-skill-list h2 {
+   font-size: 16px;
+   color: #313538;
+   font-weight: bold;
+   padding-left: 8px;
+   padding-top: 10px;
+ }
+
+ .cp-skill-list p {
+   font-size: 9px;
+   font-weight: 11px;
+
+ }
+.cp-skill-section {
    background-color: #00000008;
    padding-top: 40px;
    padding-bottom: 60px;
@@ -689,26 +772,20 @@
 
  }
 
- .cp-skill-list h4 {
-   font-size: 16px;
+ .cp-skill-list h3 {
+   font-size: 15px;
    color: #313538;
    font-weight: bold;
    padding-left: 8px;
-   padding-top: 8px;
+   padding-bottom: 10px; 
+   height: 60px;
  }
 
  .cp-skill-list p {
    font-size: 9px;
-   font-weight: 5px;
+   font-weight: 11px;
 
  }
-
- .cp-view-button {
-   width: 60px;
-   background-color: whitesmoke;
-   border-color: #17acde;
- }
-
  .cp-skill-section {
    background-color: #00000008;
    padding-top: 40px;
@@ -725,6 +802,45 @@
    padding-left: 8px;
    padding-bottom: 10px;
  }
+
+ .cp-skill-list img {
+   width: 20px;
+   height: 60px;
+   border-radius: 200px;
+
+ }
+
+ .cp-skill-list h4 {
+   font-size: 16px;
+   color: #313538;
+   font-weight: bold;
+   padding-left: 8px;
+   padding-top: 10px;
+ }
+
+ .cp-skill-list p {
+   font-size: 9px;
+   font-weight: 11px;
+   padding-top: 2px;
+
+ }
+
+ .cp-skill-section {
+   background-color: #00000008;
+   padding-top: 40px;
+   padding-bottom: 60px;
+ }
+
+ .cp-skill-list {
+   background-color: #fff;
+   width: 23%;
+   float: left;
+   margin-left: 15px;
+   padding-top: 50px;
+   border-radius: 5px;
+   padding-left: 500%;
+   padding-bottom: 10px;
+ }  
 
  .cp-skill-list img {
    width: 60px;
@@ -738,240 +854,56 @@
    color: #313538;
    font-weight: bold;
    padding-left: 8px;
-   padding-top: 8px;
+   padding-top: 15px;
  }
 
  .cp-skill-list p {
-   font-size: 8px;
-   font-weight: 5px;
+   font-size: 9px;
+   font-weight: 11px;
 
  }
-
- .cp-view-button {
-   width: 60px;
-   background-color: whitesmoke;
-   border-color: #17acde;
- }
-
  .cp-skill-section {
-   background-color: #00000008;
-   padding-top: 40px;
-   padding-bottom: 60px;
- }
+  background-color: #00000008;
+  padding-top: 40px;
+  padding-bottom: 60px;
 
- .cp-skill-list {
-   background-color: #fff;
-   width: 23%;
-   float: left;
-   margin-left: 15px;
-   padding-top: 10px;
-   border-radius: 5px;
-   padding-left: 8px;
-   padding-bottom: 10px;
- }
+}
 
- .cp-skill-list img {
-   width: 60px;
-   height: 60px;
-   border-radius: 200px;
+.cp-skill-list {
+  background-color: #fff;
+  width: 23%;
+  float: left;
+  margin-left: 15px;
+  border-radius: 5px;
+  padding-left: 8px;
+  padding-bottom: 10px;
+}
 
- }
+.cp-skill-list img {
+  width: 60px;
+  height: 60px;
+  border-radius: 200px;
 
- .cp-skill-list h6 {
-   font-size: 16px;
-   color: #313538;
-   font-weight: bold;
-   padding-left: 8px;
-   padding-top: 8px;
- }
+}
 
- .cp-skill-list p {
-   font-size: 8px;
-   font-weight: 5px;
+.cp-skill-list h6 {
+  font-size: 16px;
+  color: #313538;
+  font-weight: bold;
+  padding-left: 8px;
+  padding-top: -0%;
+  height: 120px;
+}
 
- }
+.cp-skill-list p {
+  font-size: 9px;
+  font-weight: 11px;
 
- .cp-view-button {
-   width: 60px;
-   background-color: whitesmoke;
-   border-color: #17acde;
- }
+}
 
- .cp-skill-section {
-   background-color: #00000008;
-   padding-top: 40px;
-   padding-bottom: 60px;
- }
+ 
 
- .cp-skill-list {
-   background-color: #fff;
-   width: 23%;
-   float: left;
-   margin-left: 15px;
-   padding-top: 10px;
-   border-radius: 5px;
-   padding-left: 8px;
-   padding-bottom: 10px;
- }
-
- .cp-skill-list img {
-   width: 60px;
-   height: 60px;
-   border-radius: 200px;
-
- }
-
- .cp-skill-list h7 {
-   font-size: 16px;
-   color: #313538;
-   font-weight: bold;
-   padding-left: 8px;
-   padding-top: 8px;
- }
-
- .cp-skill-list p {
-   font-size: 8px;
-   font-weight: 5px;
-
- }
-
- .cp-view-button {
-   width: 60px;
-   background-color: whitesmoke;
-   border-color: #17acde;
- }
-
- .cp-skill-section {
-   background-color: #00000008;
-   padding-top: 40px;
-   padding-bottom: 60px;
- }
-
- .cp-skill-list {
-   background-color: #fff;
-   width: 23%;
-   float: left;
-   margin-left: 15px;
-   padding-top: 10px;
-   border-radius: 5px;
-   padding-left: 8px;
-   padding-bottom: 10px;
- }
-
- .cp-skill-list img {
-   width: 60px;
-   height: 60px;
-   border-radius: 200px;
-
- }
-
- .cp-skill-list h8 {
-   font-size: 16px;
-   color: #313538;
-   font-weight: bold;
-   padding-left: 8px;
-   padding-top: 8px;
- }
-
- .cp-skill-list p {
-   font-size: 8px;
-   font-weight: 5px;
-
- }
-
- .cp-view-button {
-   width: 60px;
-   background-color: whitesmoke;
-   border-color: #17acde;
- }
-
- .cp-skill-section {
-   background-color: #00000008;
-   padding-top: 40px;
-   padding-bottom: 60px;
- }
-
- .cp-skill-list {
-   background-color: #fff;
-   width: 23%;
-   float: left;
-   margin-left: 15px;
-   padding-top: 10px;
-   border-radius: 5px;
-   padding-left: 8px;
-   padding-bottom: 10px;
- }
-
- .cp-skill-list img {
-   width: 60px;
-   height: 60px;
-   border-radius: 200px;
-
- }
-
- .cp-skill-list h9 {
-   font-size: 16px;
-   color: #313538;
-   font-weight: bold;
-   padding-left: 8px;
-   padding-top: 8px;
- }
-
- .cp-skill-list p {
-   font-size: 8px;
-   font-weight: 5px;
-
- }
-
- .cp-view-button {
-   width: 60px;
-   background-color: whitesmoke;
-   border-color: #17acde;
- }
-
- .cp-skill-section {
-   background-color: #00000008;
-   padding-top: 40px;
-   padding-bottom: 60px;
- }
-
- .cp-skill-list {
-   background-color: #fff;
-   width: 23%;
-   float: left;
-   margin-left: 15px;
-   padding-top: 10px;
-   border-radius: 5px;
-   padding-left: 8px;
-   padding-bottom: 10px;
- }
-
- .cp-skill-list img {
-   width: 60px;
-   height: 60px;
-   border-radius: 200px;
-
- }
-
- .cp-skill-list h10 {
-   font-size: 16px;
-   color: #313538;
-   font-weight: bold;
-   padding-left: 8px;
-   padding-top: 8px;
- }
-
- .cp-skill-list p {
-   font-size: 8px;
-   font-weight: 5px;
-
- }
-
- .cp-view-button {
-   width: 60px;
-   background-color: whitesmoke;
-   border-color: #17acde;
- }
+ 
 
  * {
    box-sizing: border-box
