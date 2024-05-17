@@ -78,11 +78,11 @@
  .cp-footer {
    display: flex;
    position: relative;
-   width: 110%;
+   width: 103%;
    justify-content: space-between;
    background-color: black;
    bottom: 0;
-   left: -50px;
+   left: -37px;
    padding: 8px 5px;
  }
 
@@ -90,6 +90,13 @@
    color: white;
    margin: 0;
  }
+
+.cp-container {
+  display: block;
+  padding: 10px;
+  text-align: justify;
+  margin-right: 50px;
+}
 
 
  /* NAVBAR & FOOTER CSS END */
@@ -545,7 +552,7 @@
    width: 100%;
    float: left;
    margin-left: 0%;
-   text-align: center;
+   text-align:center;
  }
 
  .cp-width-50 {
@@ -638,16 +645,18 @@
    width: 100%;
  }
 
- .cp-banner-heading {
+ .cp-banner-heading { 
    font-size: 40px;
    color: black;
-   padding-top: 70px;
+   padding-top: 24px; 
+   text-align: center;  
  }
 
  .cp-banner-para {
    font-size: 15px;
    color: black;
    padding-top: 10px;
+   text-align: center;
  }
  
  .cp-dropdown-select {
@@ -663,6 +672,7 @@
    width: 25%;
    float: left;
    position: relative;
+   margin-right: 50px;
  }
  
  .cp-search-textbox {
@@ -694,13 +704,16 @@
   display: inline-block;
 }
 
-
-
- .cp-width-66 {
+.cp-width-66 {
    width: 66%;
    float: left;
-  
  }
+ 
+ .cp-width-66 p {
+  width: 66%;
+  float: left;
+   
+}
  
 .cp-width-33 {
    width: 33%;
@@ -719,7 +732,7 @@
 
  .cp-skill-list {
    background-color: #fff;
-   width: 23%;
+   width: 22%;
    float: left;
    margin-left: 15px;
    padding-top: 10px;
@@ -734,20 +747,28 @@
    border-radius: 100px;
 
  }
-
- .cp-skill-list h1 {
-   font-size: 16px;
+.cp-skill-list h1 {
+   font-size: 15px;
+   color: #313538;
+   font-weight: bold;
+   padding-left: 5px;
+   padding-right: 5px;
+}
+ /* .cp-skill-list h1 {
+   font-size: 15px;
    color: #313538;
    font-weight: bold;
    padding-left: 1px;
    padding-top: 3px;
- }
+ } */
 
  .cp-skill-list p {
    font-size: 9px;
    font-weight: 11px;
-   padding-left: 7px;
+   padding-left: 15px;
    padding-top: 5px;
+   margin-top: 10px;
+   
 
  }
 
@@ -764,9 +785,52 @@
   position: fixed;
   right: 0;
   background-color: white;
-  overflow: auto;
+  /* overflow-y: auto; */
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+
+.cp-detail-header {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.cp-section-img {
+   width: 100px;
+   height: 80px;
+   float: center;
+  
+}
+
+.cp-about p {
+  margin-right: 20px;
+  height: 1px;
+  display: flex;
+  align-content: center;
+  
+}
+
+.cp-divider {
+  width: 100%;
+  height: 1px;
+  background-color: #17acde;
+  margin: 1rem 0;
+  border: none;
+  overflow-y: auto;
+
+
+}
+/* }.cp-detail-sect {
+   line-height: 2px;
+} */
+
+
+
+
+     
+
+
+
 
 .cp-container {
   width: 1170px;
@@ -799,26 +863,13 @@
 .cp-feature-title p {
   margin-top: 50px;
 }
-
-/* .cp-feature-btn {
- background-color: rgb(255, 255, 255);
- height: 30px;
- border: none;
- border-radius: 20px;
- width: 80px;
- font-size: 15px;
- text-align: center;
- margin-left: -12px;
- color: white;
- background-color: black;
- position: relative;
- overflow: hidden; */
-
- button {
-  --glow-color: rgb(217, 176, 255);
-  --glow-spread-color: rgba(191, 123, 255, 0.781);
+.cp-button {
+  --glow-color: rgb(179, 221, 25);
+  --glow-spread-color: rgb(189, 226, 77);
   --enhanced-glow-color: rgb(231, 206, 255);
-  --btn-color: rgb(100, 61, 136);
+  --btn-color: rgb(0, 0, 0);
+  border: black;
+  border: black;
   border: .25em solid var(--glow-color);
   padding: 1em 3em;
   color: var(--glow-color);
@@ -827,15 +878,15 @@
   background-color: var(--btn-color);
   border-radius: 1em;
   outline: none;
-  box-shadow: 0 0 1em .25em var(--glow-color),
+  /* box-shadow: 0 0 1em .25em var(--glow-color),
          0 0 4em 1em var(--glow-spread-color),
-         inset 0 0 .75em .25em var(--glow-color);
-  text-shadow: 0 0 .5em var(--glow-color);
+         inset 0 0 .75em .25em var(--glow-color); */
+  /* text-shadow: 0 0 .5em var(--glow-color); */
   position: relative;
   transition: all 0.3s;
  }
  
- button::after {
+.cp-button::after {
   pointer-events: none;
   content: "";
   position: absolute;
@@ -843,13 +894,14 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: var(--glow-spread-color);
+  border-color: black;
+   background-color: var(--glow-spread-color); 
   filter: blur(2em);
   opacity: .7;
   transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
  }
  
- button:hover {
+.cp-button:hover {
   color: var(--btn-color);
   background-color: var(--glow-color);
   box-shadow: 0 0 1em .25em var(--glow-color),
@@ -857,7 +909,7 @@
          inset 0 0 .75em .25em var(--glow-color);
  }
  
- button:active {
+.cp-button:active {
   box-shadow: 0 0 0.6em .25em var(--glow-color),
          0 0 2.5em 2em var(--glow-spread-color),
          inset 0 0 .5em .25em var(--glow-color);
