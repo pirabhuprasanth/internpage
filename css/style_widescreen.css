@@ -648,13 +648,13 @@
  }
 
  .cp-skill-list a {
-   position: relative;
+   /* position: relative; */
    background-color: #fcfbfb;
    width: 23%;
    float: left;
    border-radius: 5px;
    padding: 30px;
-   display: flex;
+   /* display: flex; */
    justify-content: center;
    align-items: center;
    flex-direction: column;
