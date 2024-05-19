@@ -110,6 +110,9 @@ body{
     top: 55px;
 }
 
+#copyright {
+  display: none;
+}
 
 /* NAVBAR & FOOTER CSS END */
 

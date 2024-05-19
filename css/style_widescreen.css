@@ -578,6 +578,7 @@
 
  .join-us-section span p {
    max-width: 6in;
+   text-align: center;
  }
 
  .cp-button {
@@ -634,15 +635,16 @@
 
  .jobs {
    margin: 50px 0 0 0;
-   width: 1300px;
+   /* width: 1300px; */
+
  }
 
  .cp-skill-list {
    width: 23%;
-   height: 23%;
+   /* height: 23%; */
    float: left;
    margin-left: 15px;
-   border-radius: 300px;
+   /* border-radius: 300px; */
    padding-left: 8px;
 
  }
@@ -650,11 +652,11 @@
  .cp-skill-list a {
    /* position: relative; */
    background-color: #fcfbfb;
-   width: 23%;
+   width: 80%;
    float: left;
    border-radius: 5px;
    padding: 30px;
-   /* display: flex; */
+   display: flex;
    justify-content: center;
    align-items: center;
    flex-direction: column;
