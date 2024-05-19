@@ -68,6 +68,7 @@
    bottom: 0;
    left: -0px;
    padding: 8px 5px;
+   z-index: 1000;
  }
 
  footer p {
@@ -162,10 +163,10 @@
  /* CONTACT CSS */
  .container {
    position: relative;
-   width: 90%;
-   min-height: 80vh;
-   padding: 2rem;
-   left: 120px;
+   width: 92%;
+   min-height: 100vh;
+   padding: 1rem;
+   left: 90px;
    overflow: hidden;
    display: flex;
    align-items: center;
