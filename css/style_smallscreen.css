@@ -1246,7 +1246,7 @@ html {
 
 }
 }
-@media screen and (min-width: 430px) and (max-width: 932px) {
+@media screen and (min-width: 300px) and (max-width: 1000px) {
 
 /* CAREERS CSS START */
 
@@ -1402,6 +1402,5 @@ html {
 }
 
 
-
-
 }
+
